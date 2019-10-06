@@ -1,14 +1,12 @@
 # C++ Boilerplate
 [![Build Status](https://travis-ci.org/Ytodi31/Valgrind.svg?branch=master)](https://travis-ci.org/YTodi31/Valgrind)
-[![Coverage Status](https://coveralls.io/repos/github/Ytodi31/Valgrind/badge.svg?branch=master&service=github)](https://coveralls.io/github/Ytodi31/Valgrind?branch=master)
+
 ---
 
 ## Overview
 
-Simple starter C++ project with:
+Program to find errors using Valgrind and correct them.
 
-- cmake
-- googletest
 
 ## Standard install via command-line
 ```
@@ -32,4 +30,7 @@ make code_coverage
 This generates a index.html page in the build/coverage sub-directory that can be viewed locally in a web browser.
 
 
-
+## Outputs
+Initial errors found using Valgrind are attached in text file - initialErrors.txt
+Valgrind errors are corrected and output is attached in text file - finalErrors.txt
+Output from memory profiler KCachegrind is attached as image - memoryProfileKcache.png
