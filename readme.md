@@ -31,6 +31,6 @@ This generates a index.html page in the build/coverage sub-directory that can be
 
 
 ## Outputs
-Initial errors found using Valgrind are attached in text file - initialErrors.txt
-Valgrind errors are corrected and output is attached in text file - finalErrors.txt
+Initial errors found using Valgrind are attached in text file - initialErrors.txt /n
+Valgrind errors are corrected and output is attached in text file - finalErrors.txt /n
 Output from memory profiler KCachegrind is attached as image - memoryProfileKcache.png
